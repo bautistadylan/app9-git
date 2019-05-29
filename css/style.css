@@ -8,9 +8,9 @@
 body{
 	font-family:arial;
 	font-size:13px;
-	line-height::1.5em;
-	color:#0C6;
-	background:-color:#F93;
+	line-height:1.5em;
+	color:#033;
+  background-color:#0F0;
 	}
 	
 .clearfix{
@@ -21,7 +21,7 @@ body{
 	width:330px;
 	min-height:400px;
 	background:#999;
-	overflow::auto;
+	overflow:auto;
 	margin:60px auto;
 	-moz-border-radius:10px;
 	-webkit-border-radius:10px;
