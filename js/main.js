@@ -19,11 +19,11 @@ initAudio($('#playlist li:first-child'));
 			  $('#duration').html('0.00');
 			  }
 			  
-			  $('#audio-player.title').text(title);
-			  $('#audio-player.artist').text(artist);
+			  $('#audio-player .title').text(title);
+			  $('#audio-player .artist').text(artist);
 			  
 			  //Insert Cover Image
-			  $('img.cover li').attr('src','images/covers/'+cover);
+			  $('img.cover').attr('src','images/covers/'+cover);
 			  
 			  $('playlist li').removeClass('active');
 			  element.addClass('active');
